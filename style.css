@@ -1,3 +1,8 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: #000000;
     font-family: Helvetica, sans-serif;
@@ -27,28 +32,27 @@ nav a:hover{
     color: #b7a59a;
 }
 
-.mission {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    z-index: 1;
-    color: #fff5ee;
-    opacity: 0.9;
-    background-color: #000000;
+#mission {
+    border-radius: 5px;
+    background-image: url("./img/img-mission-background.jpg");
+    background-size: cover;
     width: 100%;
-    padding: 10px;
-}
-
-.mission-image {
-    position: relative;
     height: 700px;
-    width: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.mission-image img {
-    display: block;
+.mission-header {
+    background-color: #000;
     width: 100%;
-    height: auto;
+    padding: 10px 0;
+    text-align: center;
 }
+
+.mission-header h2,
+.mission-header h4 {
+    margin: 0;
+}
+
