@@ -56,3 +56,35 @@ nav a:hover{
     margin: 0;
 }
 
+#featured {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.tea-header{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.featured-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.item img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    transition: transform .2s;
+}
+
+.item img:hover {
+    transform: scale(1.1);
+}
+
+.item h4 {
+    margin-top: 10px;
+}
