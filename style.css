@@ -1,0 +1,72 @@
+body{
+    background-color: #000000;
+    font-family: Helvetica, sans-serif;
+    color: #fff5ee;
+    opacity: 0.9;
+}
+
+nav img{
+    width: auto;
+    height: 50px;
+    float: left;
+}
+
+nav li{
+    display: inline;
+    padding: 10px;
+    float: right;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff5ee;
+    opacity: 0.9;
+}
+
+nav a:hover{
+    color: #b7a59a;
+}
+
+.mission {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    color: #fff5ee;
+    opacity: 0.9;
+    background-color: #000000;
+    width: 100%;
+    padding: 10px;
+}
+
+.mission-image {
+    position: relative;
+    height: 700px;
+    width: auto;
+}
+
+.mission-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .mission {
+        top: 10%; 
+        padding: 15px; 
+        font-size: 14px; 
+        width: 90%;
+    }
+
+    .mission-image {
+        height: 300px;
+    }
+
+    .mission-image img {
+        height: 100%; 
+        object-fit: cover; 
+    }
+}
