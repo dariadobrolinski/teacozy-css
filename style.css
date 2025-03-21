@@ -52,21 +52,3 @@ nav a:hover{
     width: 100%;
     height: auto;
 }
-
-@media (max-width: 768px) {
-    .mission {
-        top: 10%; 
-        padding: 15px; 
-        font-size: 14px; 
-        width: 90%;
-    }
-
-    .mission-image {
-        height: 300px;
-    }
-
-    .mission-image img {
-        height: 100%; 
-        object-fit: cover; 
-    }
-}
